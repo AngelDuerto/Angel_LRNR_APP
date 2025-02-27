@@ -12,14 +12,7 @@ vi.mock("react-router-dom", async () => {
       state: {
         correctCount: 3, // Simulate a scenario where the user got 3 correct answers
         totalQuestions: 5, // Total number of questions in the quiz
-        userAnswers: [
-          {
-            question: "What is 2 + 2?",
-            userAnswer: "4",
-            correctAnswer: "4",
-            isCorrect: true, // Indicate that the user's answer was correct
-          },
-        ],
+        userAnswers:[],
       },
     }),
   };
