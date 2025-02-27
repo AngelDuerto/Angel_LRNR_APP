@@ -10,7 +10,6 @@ export default defineConfig({
     setupFiles: './src/test/setup.ts', // Path to test setup file
     css: false, // Disables CSS processing during tests for performance
   }, 
-  plugins: [react()],
   server: {
     port: 5173, // Ensure this matches the port in your Cypress config if testing locally
   }
