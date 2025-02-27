@@ -1,2 +1,2 @@
-// src/setupTests.js
+// setupTests.js
 import "@testing-library/jest-dom";

@@ -7,7 +7,7 @@ export default defineConfig({
   test: {
     globals: true, // Allows using global Jest-like test functions
     environment: 'jsdom', // Simulates a browser-like environment for testing
-    setupFiles: './src/test/setup.ts', // Path to test setup file
+    setupFiles: './setupTests.js', // Path to test setup file
     css: false, // Disables CSS processing during tests for performance
   }, 
   server: {
