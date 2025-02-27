@@ -38,3 +38,5 @@ vi.mock("react-router-dom", async () => {
         fireEvent.click(createAccountButton);
     });
 });
+
+// 1 test passed (1 total)

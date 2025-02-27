@@ -30,3 +30,5 @@ describe("Home Page Tests", () => {
     cy.url().should("include", "/quiz-gen");
   });
 });
+
+//4 tests passed (4 total)

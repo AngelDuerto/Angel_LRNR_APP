@@ -38,3 +38,5 @@ describe("ResultsPage Component", () => {
     expect(screen.getByText("Questions Right: 3 / 5")).toBeInTheDocument();
   });
 });
+
+// 1 test passed (1 total)

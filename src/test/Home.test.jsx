@@ -55,3 +55,5 @@ describe('Home Component', () => {
         expect(iconElements.length).toBe(3);
     });
 });
+
+// 2 tests passed (2 total)
